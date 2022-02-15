@@ -20,15 +20,15 @@ String name = "Souls_Lucifer";
 String pass = "Lucifel2010";
 
 //②
-if (name == USER_NAME && pass == USER_PASSWORD){
+if (name.equals(USER_NAME) && (pass.equals(USER_PASSWORD))){
 System.out.println(CONST_MSG_SUCCESS);
 
 //③
-}else if (name == USER_NAME){
+}else if (name.equals(USER_NAME)){
 System.out.println(CONST_MSG_ERROR_PASS);
 
 //④
-}else if (pass == USER_PASSWORD){
+}else if (pass.equals(USER_PASSWORD)){
 System.out.println(CONST_MSG_ERROR_NAME);
 
 //⑤
@@ -36,5 +36,5 @@ System.out.println(CONST_MSG_ERROR_NAME);
 System.out.println(CONST_MSG_ERROR_INPUT);
 
 }
-       }
+}
 }
