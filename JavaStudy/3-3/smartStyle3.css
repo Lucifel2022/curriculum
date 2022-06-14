@@ -1,0 +1,87 @@
+@media screen and (max-width: 479px) {
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+.wrapper {
+	width: 200px;
+}
+.header {
+    width: 200px;
+    height: 200px;
+}
+.mini0 {
+    width: 60px;
+    height: 160px;
+    top: 20px;
+    right: 70px;
+    bottom: 20px; 
+
+}
+
+
+.mini1 {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: none;
+}
+
+.mini2 {
+    width: 40px;
+    height: 40px;
+    float: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.mini3 {
+    width: 40px;
+    height: 40px;
+    float: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: none;
+}
+
+.right {
+    width: 200px;
+    height: 250px;
+}  
+
+.mini4 {
+    width: 140px;
+    height: 40px;
+    margin: 20px 0px 0px 30px;
+
+}
+.mini5 {
+    width: 140px;
+    height: 40px;
+    margin: 20px 0px 0px 30px;
+}
+
+.mini6 {
+    width: 140px;
+    height: 40px;
+    margin: 20px 0px 0px 30px;
+}
+
+
+.footer {
+    width: 200px;
+    height: 100px;
+
+}
+
+}
